@@ -45,7 +45,7 @@ const App = () => {
       });
     });
 
-    // Landing PAge Animation
+    // Landing Page Animation
 
     let videoCrsrAnimation = () => {
       let crsr = document.querySelector(".crsr");

@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: lightFont;
+  src: url(/public/Fonts/helvetica-now-text-regular-woff-2-4479bd.woff2);
+}
+
+@font-face {
+  font-family: boldFont;
+  src: url(/public/Fonts/Futura-Bold.woff2);
+}
+
+::selection {
+  background-color: black;
+  color: white;
+}
+
+.nav,
+.products,
+.btnTxt,
+.txtAfterBtn,
+.impactPara,
+.footer,
+.footerdown,
+.thanksTxt {
+  font-family: lightFont;
+}
+
+.landingPage,
+.abouttxt,
+.mainTxt,
+.impacttxt,
+.inputTxt {
+  font-family: boldFont;
+}

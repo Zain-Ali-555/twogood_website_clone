@@ -16,7 +16,7 @@ const LandingPage = () => {
             muted
             autoPlay
             className="rounded-lg"
-            src="/public/Videos/video.mp4"
+            src="/src/video.mp4"
           ></video>
         </div>
       </div>
